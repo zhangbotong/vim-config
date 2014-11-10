@@ -3,7 +3,7 @@ set t_Co=256
 let g:solarized_termcolors=256  
 set background=dark 
 colorscheme solarized
-set number			" 显示行号 
+set number				" 显示行号 
 set cindent 
 set tabstop=4 
 set shiftwidth=4 
