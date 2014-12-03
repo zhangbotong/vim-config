@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteConfig>
+<title>Very Cool路线评价</title>
+<description>亲，发表一下路线评价吧</description>
+<adminuser>someone</adminuser>
+<adminpass>123456</adminpass>
+<dbhost>localhost</dbhost>
+<dbuser>root</dbuser>
+<dbpass>root</dbpass>
+<pagesize>2</pagesize>
+</siteConfig>

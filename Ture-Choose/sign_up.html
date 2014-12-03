@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="ie6 ielt7 ielt8 ielt9"><![endif]--><!--[if IE 7 ]><html lang="en" class="ie7 ielt8 ielt9"><![endif]--><!--[if IE 8 ]><html lang="en" class="ie8 ielt9"><![endif]--><!--[if IE 9 ]><html lang="en" class="ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--> 
+<html lang="en"><!--<![endif]--> 
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Sign up</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/site.css" rel="stylesheet">
+		<script language=JavaScript>
+		<!--
+
+		function InputCheck(LoginForm)
+		{
+		  if (LoginForm.username.value == "")
+		  {
+			alert("请输入用户名!");
+			LoginForm.username.focus();
+			return (false);
+		  }
+		  if (LoginForm.password.value == "")
+		  {
+			alert("请输入密码!");
+			LoginForm.password.focus();
+			return (false);
+		  }
+		}
+
+		//-->
+		</script>
+	</head>
+	<body>
+		<div id="login-page" class="container">
+			<h1>Sign up</h1>
+			<form id="login-form" class="well" action="sign_up.php" method = "post">
+				<label for="username">Username:</label>
+					<input type="text" name="username" id="username" class="span2" placeholder="Username" /><br />
+				<label for="password">Password:</label>
+					<input type="password" name= "password" id="password" class="span2" placeholder="Password" /><br />
+				<label for="age">Age:</label>
+					<input type="text" name="age" id="age" class="span2" placeholder="Age"/><br />	
+				<label for="gender">Gender:</label>
+					<input type="radio" name="gender" id="gender" value="man"/>Man
+					<input type="radio" name="gender" id="gender" value="woman"/>Woman<br /><br />
+				<label for="phone">Phone:</label>
+				<input type="text" name="phone" id="phone" class="span2" placeholder="123-4567-8901"/><br />	
+				<button type="submit" class="btn btn-primary">Sign up</button>
+			</form>	
+		</div>
+	</body>
+</html>
